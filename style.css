@@ -1,0 +1,120 @@
+body {
+background-color: #cccccc;
+margin: 0;
+padding: 0;
+}
+div#entête {
+	background-color:#ffc0cb;
+
+}
+
+
+div#principal {
+
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+div#contenu {
+	min-height: 650px;
+	margin-left: 300px;
+	margin-right: auto;
+	background-color:#FFFF99;
+	border-width:1px;
+ border-style:groove;
+ border-color:#8E98F0;
+ background-image:url(gotlib.jpg);
+background-size: cover;
+}
+div#sidebar {
+	float: left;
+	margin-left: 0px;
+	text-align: center;
+	min-height: 650px;
+	background-color:#F0E68C;
+	width: 300px;
+	border-width:1px;
+ border-style:groove;
+ border-color:#8E98F0;
+ margin-top: 38px;
+ position:relative;
+
+}
+div#pied {
+	background-color:#FFA500;
+}
+h1, h2, h3 {
+	margin: 0;
+	text-align: center;
+}
+.ulsidebar {
+	list-style:" ";
+	margin-left:0;
+	padding-left:0;
+}
+.lisidebar {
+	margin-bottom:30pt;
+	height:30pt;
+	line-height:30pt;
+}
+
+.bouton {
+	display:block;
+	width:150pt;
+	margin-left:50px;
+	background-color: #007Bff;
+	color:white;
+	font-weight: bold;
+	border-radius: 50px;
+
+	box-shadow: 0 8px 16px 0 grey;
+	text-decoration: none;
+	transition: background-color 1s;
+	text-align:center;
+	
+	
+}
+.bouton:hover {
+	background-color: #DC3545;
+}
+div#tableholder{
+margin-top: 5px;
+overflow-y:visible;
+min-height: 650px;
+}
+table {
+	
+	border-collapse: collapse;
+	border-spacing: 0pt;
+width:1016px;
+margin: 0px auto 0px auto;
+background-color:rgba(235, 220, 220, 0.6);
+}
+
+th {
+	background-color:#8f10ff;
+	border:1px solid black;
+	width:250px;
+
+	
+}
+	
+td {
+margin-top: 100pt;
+	border: 1px solid black;
+	text-align:center;
+width:20%;
+}
+
+caption {
+font-weight:bold
+}
+form#myform label { display:inline-block; width:100px; }
+
+form#myform input { display:inline-block; }
+
+form#myform input[type=submit] {color:#fff; background-color:green;}
+
+img {
+	padding-bottom: 10px;
+}
