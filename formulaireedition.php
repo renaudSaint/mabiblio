@@ -27,8 +27,9 @@
 	<input type="submit" name="envoi" class="bouton">
 </form>
 <?php
-if(isset($_POST['envoi'])){
-echo $_POST['edition'];
+if(isset($_POST['edition']) && (strlen($_POST['edition'] == ''))){echo 'vous devez envoyer quelque chose';}
+if(isset($_POST['edition']) && (strlen($_POST['edition'] != ''))){
+
 $edition = ucwords(strtolower($_POST['edition']));
 echo $edition;
 require "conexxion2.php";

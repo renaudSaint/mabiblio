@@ -42,9 +42,7 @@ if (isset($isbn)){
     
      
    }
-   else{
-      echo 'Livre introuvable';
-   }
+
    ?>
    <table border="1">
    
